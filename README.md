@@ -1,4 +1,4 @@
-# Java CLI Utils
+# Java CLI Style
 
 [![CLI](https://img.shields.io/badge/CLI-blue.svg)](https://en.wikipedia.org/wiki/Command-line_interface)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
