@@ -18,7 +18,7 @@ A simple Java utility for rendering styled console menus and exit messages with 
 
 ## Features
 
-- Render menu frames with 8 different border styles.
+- Render menu frames with 6 different border styles.
 - Support for colored text using ANSI escape codes for titles, options, and frames.
 - Center-aligned text for clean and organized output.
 
@@ -54,7 +54,7 @@ String[] options = {"Option 1", "Option 2", "Option 3", "Option 4"};
 1. String title = "Menu Title";
 2. String[] lines = {"Option 1", "Option 2", "Option 3", "Option 4"};
 3. int longestLineLength // The longest length of lines[] and title
-4. int frameStyle // There's 8 different frame style for now pick one of them
+4. int frameStyle // There's 6 different frame style for now pick one of them
 
 call method:
 Frame.printMenuFrame(title, lines, 83, 1);
