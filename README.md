@@ -1,4 +1,4 @@
-# Java CLI Style
+# Java CLI Frame
 
 [![CLI](https://img.shields.io/badge/CLI-blue.svg)](https://en.wikipedia.org/wiki/Command-line_interface)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -49,15 +49,17 @@ String[] options = {"Option 1", "Option 2", "Option 3", "Option 4"};
 2. use 'Frame' class to call 'printMenuFrame' method.
 
 ```java
-'printMenuFrame' method takes 3 parameters:
+'printMenuFrame' method takes 4 parameters:
 
 1. String title = "Menu Title";
 2. String[] lines = {"Option 1", "Option 2", "Option 3", "Option 4"};
 3. int longestLineLength // The longest length of lines[] and title
 4. int frameStyle // There's 6 different frame style for now pick one of them
 
-call method:
-Frame.printMenuFrame(title, lines, 83, 1);
+call methods:
+// use 'getLongestLineLength' method it will return int value
+int longestLineLength = Frame.getLongestLineLength(title, lines);
+Frame.printMenuFrame(title, lines, longestLineLength, 1);
 
 ```
 
@@ -103,9 +105,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 Mohammad Hammad - [GitHub](https://github.com/1M7md-CS)
-
-
-
-
-
-
