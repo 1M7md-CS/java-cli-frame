@@ -76,28 +76,7 @@ Frame.printExitMessage(exitMessage, 2);
  
 ## Frames
 
-```
-1:                             2:                                  3:
-╒───────────────────╕          ┌───────────────────┐               ╔═══════════════════╗
-│    Menu Title     │          │    Menu Title     │               │    Menu Title     │
-╞───────────────────╡          ├───────────────────┤               ╠═══════════════════╣
-│  Option 1         │          │  Option 1         │               │  Option 1         │
-│  Option 2         │          │  Option 2         │               │  Option 2         │
-│  Option 3         │          │  Option 3         │               │  Option 3         │
-│  Option 4         │          │  Option 4         │               │  Option 4         │
-╘───────────────────╛          └───────────────────┘               ╚═══════════════════╝
-
-4:                             5:                                  6:
-╒═══════════════════╕          ╔───────────────────╗               ╔═══════════════════╗
-║    Menu Title     ║          ║    Menu Title     ║               ║    Menu Title     ║
-╞═══════════════════╡          ╟───────────────────╢               ╠═══════════════════╣
-║  Option 1         ║          ║  Option 1         ║               ║  Option 1         ║
-║  Option 2         ║          ║  Option 2         ║               ║  Option 2         ║
-║  Option 3         ║          ║  Option 3         ║               ║  Option 3         ║
-║  Option 4         ║          ║  Option 4         ║               ║  Option 4         ║
-╘═══════════════════╛          ╚───────────────────╝               ╚═══════════════════╝
-
-```
+![Frame](Frames.png)
 
 
 ## License
