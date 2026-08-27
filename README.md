@@ -10,6 +10,16 @@ A lightweight Java utility library for creating styled command-line interfaces w
 
 Designed for Java CLI applications that need clean and professional-looking console output without manually building borders and formatting.
 
+## About This Project
+
+This project was originally created as a small Java utility for styling command-line applications.
+
+Although it was originally developed some time ago, it has been revisited, updated, and republished as a reusable Maven library.
+
+The goal of this update was to make the project easier for other developers to use by publishing it to **Maven Central** instead of requiring users to manually copy the source files into their projects.
+
+The library remains intentionally lightweight and focuses on providing simple utilities for creating styled and organized CLI output.
+
 ---
 
 ## Features
