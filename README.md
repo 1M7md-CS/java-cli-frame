@@ -219,7 +219,7 @@ You can also create a styled exit message:
 String exitMessage =
         "Thank you for using our application!";
 
-Frame.printExitMessage(exitMessage, 2);
+Frame.printExitFrame(exitMessage, 2);
 ```
 
 The second parameter determines the frame style.
@@ -236,7 +236,7 @@ public class Main {
         String exitMessage =
                 "Thank you for using our application!";
 
-        Frame.printExitMessage(exitMessage, 2);
+        Frame.printExitFrame(exitMessage, 2);
     }
 }
 ```
@@ -261,7 +261,7 @@ Available styles:
 For example:
 
 ```java
-Frame.printExitMessage(
+Frame.printExitFrame(
         "Goodbye!",
         1
 );
@@ -270,7 +270,7 @@ Frame.printExitMessage(
 Or:
 
 ```java
-Frame.printExitMessage(
+Frame.printExitFrame(
         "Goodbye!",
         6
 );
@@ -329,12 +329,12 @@ Frame.printMenuFrame(
 
 ---
 
-### `printExitMessage`
+### `printExitFrame`
 
 Prints a formatted exit message.
 
 ```java
-Frame.printExitMessage(
+Frame.printExitFrame(
         message,
         frameStyle
 );
@@ -381,7 +381,7 @@ public class Main {
         int choice = scanner.nextInt();
 
         if (choice == 4) {
-            Frame.printExitMessage(
+            Frame.printExitFrame(
                     "Thank you for using the application!",
                     2
             );
