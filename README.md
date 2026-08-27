@@ -2,7 +2,7 @@
 
 [![CLI](https://img.shields.io/badge/CLI-blue.svg)](https://en.wikipedia.org/wiki/Command-line_interface)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Java-24-red.svg)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-21-red.svg)](https://www.oracle.com/java/)
 [![GitHub issues](https://img.shields.io/github/issues/1M7md-CS/java-cli-style)](https://github.com/1M7md-CS/java-cli-style/issues)
 
 A simple Java utility for rendering styled console menus and exit messages with customizable borders and ANSI colors. This project is designed for CLI applications to create professional-looking console interfaces.
