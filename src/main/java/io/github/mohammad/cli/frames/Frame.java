@@ -9,7 +9,7 @@
 */
 
 
-package io.github._1M7md_CS;
+package io.github.mohammad.cli.frames;
 
 public class Frame {
 
