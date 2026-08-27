@@ -1,4 +1,4 @@
-# Java CLI Frame
+# Java CLI Frames
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.1m7md-cs/cli-frames.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.1m7md-cs/cli-frames)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
